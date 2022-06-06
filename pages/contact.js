@@ -1,9 +1,3 @@
-/* 
-JavaScript
-Write a next.js page component for an Contact Me Page.\n1. Import React library and useState/useEffect hooks.\n2. Import Link component from next/link\n3. Create a functional component that includes a useEffect hook.\n4. The useEffect hook should check for successful page load. Update state variable on success.\n5. The about page content should be wrapped in a main tag. Actual content should include div/p tags as well.\n6. Include a link to the home page within the page content. 7. Include a form that that has two inputs (name, email) and one textarea (message), and a submit butt.
-*/
-###
-
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
